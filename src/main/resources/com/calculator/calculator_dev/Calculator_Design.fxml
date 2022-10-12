@@ -8,10 +8,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox fx:id="parentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.calculator.calculator_dev.Calculator_Controller">
    <children>
-      <TextArea fx:id="field" prefHeight="200.0" prefWidth="200.0" promptText="0" scrollLeft="1.0" scrollTop="1.0" wrapText="true">
+      <TextArea fx:id="field" editable="false" prefHeight="200.0" prefWidth="200.0" promptText="0" scrollLeft="1.0" scrollTop="1.0" wrapText="true">
          <font>
             <Font size="30.0" />
          </font>
